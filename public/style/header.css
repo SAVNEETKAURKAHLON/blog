@@ -1,0 +1,80 @@
+.contain{
+    display: flex;
+    background-color: #B4B4B8;
+    color: black;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+.blog_icon{
+    flex: 1;
+    font-size: 30px;
+
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    gap: 130px;
+    font-size: 20px;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+#create_blog{
+    height: 48px;
+    width: 200px;
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+#input{
+    width: 600px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 40px;
+    resize: both;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow-wrap: break-word;
+}
+#hidden_submit{
+    padding: 20px 48px 20px 48px;
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.delete{
+    width: 100%;
+    border-radius: 4px;
+}
+.footer{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    background-color: #B4B4B8;
+    color: black;
+    font-size: 20px;
+}
+.your_blog{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.delete{
+    background-color: #C7C8CC;
+}
